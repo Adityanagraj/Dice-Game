@@ -43,6 +43,12 @@ else if (randomnum4 > randomnum1 && randomnum4> randomnum2 && randomnum4> random
     document.querySelector("h1").innerHTML="Player four wins!";
 
 }
+else if (randomnum4==randomnum3==randomimage2==randomnum1){
+    document.querySelector("h1").innerHTML="Draw!";	
+}
+else{
+    document.querySelector("h1").innerHTML="Spin again!";		
+}
 
 
 //function myFunction() {
